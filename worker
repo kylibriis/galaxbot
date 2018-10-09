@@ -1,1 +1,1 @@
-worker: python galaxbot.py
+worker: python3 galaxbot.py
