@@ -6,17 +6,17 @@
 
   "version": "0.0.0",
 
-  "main": "bot.js",
+  "main": "galaxbot.py",
 
   "scripts": {
 
-    "start": "node bot.js"
+    "start": "node galaxbot.py"
 
   },
 
   "dependencies": {
 
-    "discord.js": "11.1.0",
+    "discord.py": "11.1.0",
 
     "request": "2.81.0"
 
