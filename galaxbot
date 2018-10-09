@@ -132,4 +132,4 @@ async def name(ctx):
 
 
 
-bot.run(TOKEN)
+bot.login(process.env.NDk2MDY5ODIzMDg5MDgyMzY4.DpLV1w.qK12mBi7uYdgQRJ84Hq4PfY7udE)
