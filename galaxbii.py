@@ -4,7 +4,7 @@ import random
 import json
 import os
 
-TOKEN = "NDk2MDY5ODIzMDg5MDgyMzY4.DpLV1w.qK12mBi7uYdgQRJ84Hq4PfY7udE"
+TOKEN = "BOT_TOKEN"
 
 bot = commands.Bot(command_prefix="b!")
 
@@ -129,4 +129,4 @@ async def name(ctx):
 async def on_message(ctx):
     await bot.send_message(ctx.message.channel, ctx.message.content)
 
-bot.run(process.env.BOT_TOKEN)
+bot.run(process.env.TOKEN)
