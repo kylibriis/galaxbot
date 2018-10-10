@@ -127,4 +127,4 @@ async def name(ctx):
 async def on_message(ctx):
     await bot.send_message(ctx.message.channel, ctx.message.content)
 
-bot.run(process.env.BOT_TOKEN)
+bot.run(BOT_TOKEN)
